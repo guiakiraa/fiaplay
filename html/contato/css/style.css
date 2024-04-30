@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #490076, #8800DC, #490076);
+}
+
+#fotoLogo {
+    width: 70px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #1E0030C7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    padding: 7px;
+    border-radius: 7px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;  
+    font-size: 16px; 
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+a:hover {
+    background-color: #d5b1ec86;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
