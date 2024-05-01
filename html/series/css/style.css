@@ -60,6 +60,63 @@ header a {
     border-radius: 7px;
 }
 
+h2 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 50px 30px;
+}
+
+.series {
+    margin-bottom: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.fundo {
+    min-height: 350px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.fundo img {
+    width: 300px;
+}
+
+.fundo h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #490076;
+}
+
+.fundo a {
+    text-decoration: none;
+    color: #490076;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+}
+
+.fundo a:hover {
+    background-color: #490076;
+    color: #fff;
+    border: 1px solid #490076;
+}
+
 footer {
     background-color: #333;
     text-align: center;
