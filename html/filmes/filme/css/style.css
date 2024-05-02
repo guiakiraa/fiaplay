@@ -60,6 +60,73 @@ header a {
     border-radius: 7px;
 }
 
+main {
+    background-color: #000000;
+}
+
+.filme {
+    padding-bottom: 170px;
+}
+
+.titulo {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1 {
+    color: #fff;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+}
+
+.textos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.textos h2, p {
+    color: #fff;
+}
+
+.textos h2 {
+    font-size: 45px;
+}
+
+.textos p {
+    font-size: 18px
+}
+
+.sinopse, .elenco {
+    width: 70%;
+}
+
+.midias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 50px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens img {
+    width: 40%;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #333;
     text-align: center;
