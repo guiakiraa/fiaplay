@@ -33,6 +33,55 @@ nav {
     align-items: center;
     padding: 10px;
 }
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.contato {
+    margin-left: 190px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+}
+
+form input {
+    width: 400px;
+    outline: unset;
+    border-radius: 5px;
+    height: 30px;
+}
+
+form label {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.duvida{
+    text-align: center;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
 
 h1 {
     font-size: 40px;
@@ -63,6 +112,8 @@ header a {
 }
 
 footer {
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     text-align: center;
     padding: 40px 0px 10px 0px;
