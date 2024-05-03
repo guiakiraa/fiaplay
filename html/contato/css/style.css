@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    @import url'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
 body {
     background-image: linear-gradient(to bottom, #490076, #8800DC, #490076);
@@ -60,7 +62,57 @@ header a {
     border-radius: 7px;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.contato {
+    margin-left: 190px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+}
+
+form input {
+    width: 400px;
+    outline: unset;
+    border-radius: 5px;
+    height: 30px;
+}
+
+form label {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.duvida{
+    text-align: center;
+    height: 100px;
+    border-radius: 5px;
+}
+
 footer {
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     text-align: center;
     padding: 40px 0px 10px 0px;
