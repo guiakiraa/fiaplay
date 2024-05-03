@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    @import url'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
 body {
     background-image: linear-gradient(to bottom, #490076, #8800DC, #490076);
