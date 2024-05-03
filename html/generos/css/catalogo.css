@@ -78,7 +78,6 @@ div.categorias{
 .catg{
     background-position: bottom;
     background-size: cover;
-    flex-basis: 25%;
     height: 100vh;
     border: 1px solid #1e0030;
     
@@ -90,6 +89,11 @@ div.categorias{
     text-align: center;
     background-color: #4900766c;
     margin-top: 150%;
+}
+
+.mudar{
+    flex-basis: 25%;
+    text-decoration: none;
 }
 
 #drama{
@@ -111,4 +115,42 @@ div.categorias{
 .catg:hover{
     opacity: 80%;
     cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;  
+    font-size: 16px; 
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+a:hover {
+    background-color: #d5b1ec86;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
 }

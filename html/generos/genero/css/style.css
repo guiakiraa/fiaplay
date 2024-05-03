@@ -80,6 +80,10 @@ h2 {
     gap: 50px;
 }
 
+.fundo:hover{
+    box-shadow: 5px 5px 2px #490076;
+}
+
 .fundo {
     min-height: 350px;
     background-color: #fff;
@@ -90,10 +94,12 @@ h2 {
     border-radius: 12px;
     align-items: center;
     justify-content: center;
+    max-width: 350px;
 }
 
 .fundo img {
     width: 300px;
+    height: auto;
 }
 
 .fundo h3 {
@@ -116,7 +122,6 @@ h2 {
 .fundo a:hover {
     background-color: #490076;
     color: #fff;
-    border: 1px solid #490076;
 }
 
 footer {
