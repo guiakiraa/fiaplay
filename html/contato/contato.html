@@ -25,25 +25,29 @@
         <section class="contato">
             <form action="" method="get">
                 <fieldset>
-                    <label for="nomeCompletoId">Nome Completo:</label>
-                    <input type="text" name="nomeCompleto" id="nomeCompletoId">
+                    <div class="container">
+                        <label for="nomeCompletoId">Nome Completo:</label>
+                        <input class="info" type="text" name="nomeCompleto" id="nomeCompletoId">
+                    </div>
+                    <div class="container">
+                        <label for="emailId">E-mail:</label>
+                        <input class="info" type="text" name="email" id="emailId">
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <label for="emailId">E-mail:</label>
-                    <input type="text" name="email" id="emailId">
+                    <div class="container">
+                        <label for="senhaId">Senha:</label>
+                        <input class="info" type="password" name="senha" id="senhaId">
+                    </div>
+                    <div class="container">
+                        <label for="cpfId">CPF:</label>
+                        <input class="info" type="text" name="cpf" id="cpfId">
+                    </div>
                 </fieldset>
-                <fieldset>
-                    <label for="senhaId">Senha:</label>
-                    <input type="password" name="senha" id="senhaId">
+                <fieldset class="espacoEscrever">
+                    <textarea name="descricao" id="descricaoId" cols="60" rows="10"></textarea>
                 </fieldset>
-                <fieldset>
-                    <label for="cpfId">CPF:</label>
-                    <input type="text" name="cpf" id="cpfId">
-                </fieldset>
-                <fieldset>
-                    <textarea name="descricao" id="descricaoId" cols="30" rows="10"></textarea>
-                </fieldset>
-                <input type="submit" value="Enviar">
+                <input class="envio" type="submit" value="Enviar">
             </form>
         </section>
     </main>
