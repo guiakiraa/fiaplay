@@ -72,19 +72,29 @@ h2 {
     margin-bottom: 200px;
 }
 
-.container {
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+}   
+
+.lista {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 .fundo:hover{
     box-shadow: 5px 5px 2px #490076;
 }
 
-.fundo {
+
+.genero {
     min-height: 350px;
     background-color: #fff;
     padding: 30px;
@@ -97,19 +107,19 @@ h2 {
     max-width: 350px;
 }
 
-.fundo img {
+.genero img {
     width: 300px;
     height: auto;
 }
 
-.fundo h3 {
+.genero h3 {
     font-size: 30px;
     text-transform: uppercase;
     color: #000000;
     text-align: center;
 }
 
-.fundo a {
+.genero a {
     text-decoration: none;
     color: #490076;
     font-size: 20px;
@@ -119,9 +129,27 @@ h2 {
     border-radius: 5px;
 }
 
-.fundo a:hover {
-    background-color: #490076;
-    color: #fff;
+.play{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.play img{
+    width: 40px;
+    height: auto;
+}
+
+.play a{
+    border: none;
+    float: left;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer {
@@ -159,27 +187,4 @@ footer p {
     margin-top: 10px;
     color: #fff;
     font-size: 14px;
-}
-
-.play{
-    background-color: #fff;
-    padding: 10px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 12px;
-    gap: 10px;
-}
-
-.play img{
-    width: 40px;
-    height: auto;
-}
-
-.play a{
-    border: none;
-    float: left;
-    margin: 0px;
-    padding: 0px;
 }

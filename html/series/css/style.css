@@ -80,7 +80,16 @@ h2 {
     gap: 50px;
 }
 
-.fundo {
+.lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.serie {
     min-height: 350px;
     background-color: #fff;
     padding: 30px;
@@ -92,17 +101,17 @@ h2 {
     border-radius: 12px;
 }
 
-.fundo img {
+.serie img {
     width: 300px;
 }
 
-.fundo h3 {
+.serie h3 {
     font-size: 30px;
     text-transform: uppercase;
     color: #490076;
 }
 
-.fundo a {
+.serie a {
     text-decoration: none;
     color: #490076;
     font-size: 20px;
@@ -112,7 +121,7 @@ h2 {
     border-radius: 5px;
 }
 
-.fundo a:hover {
+.serie a:hover {
     background-color: #490076;
     color: #fff;
     border: 1px solid #490076;
