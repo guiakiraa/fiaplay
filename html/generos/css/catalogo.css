@@ -71,7 +71,7 @@ a:hover {
 
 /* CATEGORIAS */
 
-div.categorias{
+.categorias{
     display: flex;
 }
 
