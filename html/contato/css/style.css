@@ -87,6 +87,12 @@ fieldset {
     justify-content: center;
 }
 
+.espacoEscrever legend {
+    color: #fff;
+    font-size: 25px;
+    margin: auto;
+}
+
 .container {
     width: 30%;
     display: flex;
@@ -106,7 +112,7 @@ label {
 }
 
 .envio {
-    padding: 10px 30px;
+    padding: 10px 30px; 
     margin: auto;
     font-size: 20px;
 }
